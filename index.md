@@ -1,35 +1,45 @@
-## Software Engineer Go
+### First tabs
 
-Form3 blablabla
+{% tabs log %}
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+{% tab log php %}
+```php
+var_dump('hello');
 ```
+{% endtab %}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+{% tab log js %}
+```javascript
+console.log('hello');
+```
+{% endtab %}
 
-### Jekyll Themes
+{% tab log ruby %}
+```javascript
+pputs 'hello'
+```
+{% endtab %}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jpgenovese-f3/software-engineer-go/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+{% endtabs %}
 
-### Support or Contact
+### Second tabs
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+{% tabs data-struct %}
+
+{% tab data-struct yaml %}
+```yaml
+hello:
+  - 'whatsup'
+  - 'hi'
+```
+{% endtab %}
+
+{% tab data-struct json %}
+```json
+{
+    "hello": ["whatsup", "hi"]
+}
+```
+{% endtab %}
+
+{% endtabs %}
